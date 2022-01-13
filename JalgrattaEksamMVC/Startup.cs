@@ -27,7 +27,7 @@ namespace JalgrattaEksamMVC
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<JalgrattaEksamMVCContext>(options =>
+            services.AddDbContext<ApplicationDbContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("JalgrattaEksamMVCContext")));
         }
 

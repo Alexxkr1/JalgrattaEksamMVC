@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\opilane\\Source\\repos\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\JalgrattaEksamMVC.csproj": {}
+    "C:\\Users\\opilane\\Source\\repos\\TARpe20\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\JalgrattaEksamMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\opilane\\Source\\repos\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\JalgrattaEksamMVC.csproj": {
+    "C:\\Users\\opilane\\Source\\repos\\TARpe20\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\JalgrattaEksamMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\opilane\\Source\\repos\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\JalgrattaEksamMVC.csproj",
+        "projectUniqueName": "C:\\Users\\opilane\\Source\\repos\\TARpe20\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\JalgrattaEksamMVC.csproj",
         "projectName": "JalgrattaEksamMVC",
-        "projectPath": "C:\\Users\\opilane\\Source\\repos\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\JalgrattaEksamMVC.csproj",
+        "projectPath": "C:\\Users\\opilane\\Source\\repos\\TARpe20\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\JalgrattaEksamMVC.csproj",
         "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\opilane\\Source\\repos\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\obj\\",
+        "outputPath": "C:\\Users\\opilane\\Source\\repos\\TARpe20\\JalgrattaEksamMVC\\JalgrattaEksamMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -47,6 +47,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.12, )"
@@ -80,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace JalgrattaEksamMVC.Migrations
 {
-    [DbContext(typeof(JalgrattaEksamMVCContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class JalgrattaEksamMVCContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

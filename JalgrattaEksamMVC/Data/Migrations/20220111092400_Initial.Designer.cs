@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace JalgrattaEksamMVC.Migrations
 {
-    [DbContext(typeof(JalgrattaEksamMVCContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20220111092400_Initial")]
     partial class Initial
     {

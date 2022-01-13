@@ -18,7 +18,7 @@ namespace JalgrattaEksamMVC.Models
         public string Perekonnanimi { get; set; }
         [Range(-1,10)]
         public int Teooria { get; set; } = -1;
-        public int Slaloom { get; set; } = -1;
+        public int Slaalom { get; set; } = -1;
         public int Ring { get; set; } = -1;
         public int Tänav { get; set; } = -1;
         public int Luba { get; set; } = -1;
